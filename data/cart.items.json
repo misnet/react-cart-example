@@ -1,0 +1,52 @@
+{
+    "error": false,
+    "msg": "",
+    "code": 0,
+    "data": [
+        {
+            "id": "3",
+            "mid": "3",
+            "oauthId": "pectlqlpv3r5ar69q9a36a9i97",
+            "productId": "75",
+            "appId": "2",
+            "qty": "2",
+            "addtime": "1441418170",
+            "sn": "YH0040101",
+            "storeId": "4",
+            "productName": "輕涼九分內搭褲-女",
+            "price": "198.00",
+            "imgurl": "./img/sample.jpg",
+            "skuNameString": "尺码:S,颜色:红色"
+        },
+        {
+            "id": "2",
+            "mid": "3",
+            "oauthId": "pectlqlpv3r5ar69q9a36a9i97",
+            "productId": "75",
+            "appId": "2",
+            "qty": "2",
+            "addtime": "1441418168",
+            "sn": "YH0040301",
+            "storeId": "4",
+            "productName": "輕涼九分內搭褲-女",
+            "price": "198.00",
+            "imgurl": "./img/sample.jpg",
+            "skuNameString": "尺码:L,颜色:红色"
+        },
+        {
+            "id": "1",
+            "mid": "3",
+            "oauthId": "pectlqlpv3r5ar69q9a36a9i97",
+            "productId": "75",
+            "appId": "2",
+            "qty": "2",
+            "addtime": "1441418164",
+            "sn": "YH0040201",
+            "storeId": "4",
+            "productName": "輕涼九分內搭褲-女",
+            "price": "198.00",
+            "imgurl": "./img/sample.jpg",
+            "skuNameString": "尺码:M,颜色:红色"
+        }
+    ]
+}

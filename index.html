@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>React Cart Demo</title>
+	<meta name="viewport" content="width=device-width, minimal-ui, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript">
+    	var QING_BASEURL = "./";
+        var QING_APIHOST = './data/';
+        var QING_LOCALE = "zh_CN";//en_US
+    </script>
+
+</head>
+<body >
+	
+	<header>
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" id="loginbar">
+						<ul>
+												<li><a href="javascript:void(0)">00000105您好</a></li><li>
+							<a href="javascript:void(0)">退出</a></li>
+												</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h1 class="pull-left">React Cart Demo</h1>
+		</div>
+	</header>
+	
+	<div class="wrapper">
+	
+		<div class="container">
+			<div class="breadcrumbs">
+				<div class="container">
+		            <h1 class="pull-left">购物车</h1>
+		            <ul class="pull-right breadcrumb">
+		                <li><a href="javascript:void(0)">Home</a></li>
+		                <li class="active">购物车</li>
+		            </ul>
+		        </div>
+			</div>
+			
+			<div id="cart-table">
+				
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							<div class="">
+							    2015 ©Dony ALL Rights Reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/require.js"></script>
+	<script type="text/javascript">
+		require.config({
+			"baseUrl":'./js',
+			"paths":{
+				"jquery":'jquery.min',
+				"bootstrap":'bootstrap.min',
+				'lodash':'lodash.min',
+				'layer':'layer',
+				'langs':'langs',
+				'react':'react-with-addons',
+				'jsxTransformer':'JSXTransformer',
+				'reflux':'reflux.min',
+				'react-router':'react-router.min',
+				'validator':'jquery.validate.min',
+				'app':'../dist/'
+				//注：用r.js进行压缩打包后，系统会在app目录下生成相关文件，此时可以将dist改为app
+				//'app':'../app/'
+			},
+			"shim":{
+				"bootstrap":{
+					"deps":["jquery"]
+				},
+				"layer":{
+					"deps":["jquery"]
+				},
+				"reflux":{
+					"deps":["react"]
+				},
+				"react-router":{
+					"deps":["react"]
+				},
+				'validator':{
+					'deps':['jquery']
+				}
+			}
+		});
+	</script>
+	
+<script type="text/javascript">
+   require(["app/page/cart"]);
+</script>
+
+</body>
+</html>

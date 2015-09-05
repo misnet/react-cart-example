@@ -1,0 +1,109 @@
+{
+    "error": false,
+    "msg": "",
+    "code": 0,
+    "data": {
+        "list": [
+            {
+                "id": "1",
+                "name": "福州市",
+                "code": "FUZHOU",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "117",
+                "countryId": "1"
+            },
+            {
+                "id": "2",
+                "name": "泉州市",
+                "code": "QUANZHOU",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "10",
+                "countryId": "1"
+            },
+            {
+                "id": "3",
+                "name": "福鼎市",
+                "code": "FUDING",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "4",
+                "name": "厦门市",
+                "code": "XIAMEN",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "5",
+                "name": "莆田市",
+                "code": "PUTIAN",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "6",
+                "name": "南平市",
+                "code": "NANPING",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "7",
+                "name": "三明市",
+                "code": "SANMING",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "8",
+                "name": "漳州市",
+                "code": "ZHANGZHOU",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "9",
+                "name": "龙岩市",
+                "code": "LONGYAN",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "10",
+                "name": "晋江市",
+                "code": "JINJIANG",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            },
+            {
+                "id": "11",
+                "name": "石狮市",
+                "code": "SHISHI",
+                "isactive": "1",
+                "provinceId": "1",
+                "displayWeight": "0",
+                "countryId": "1"
+            }
+        ],
+        "total": 11
+    }
+}

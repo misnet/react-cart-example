@@ -1,0 +1,26 @@
+{
+    "error": false,
+    "msg": "",
+    "code": 0,
+    "data": {
+        "list": [
+            {
+                "id": "1",
+                "name": "福建省",
+                "code": "FJ",
+                "isactive": "1",
+                "countryId": "1",
+                "displayWeight": "0"
+            },
+            {
+                "id": "2",
+                "name": "广东省",
+                "code": "GD",
+                "isactive": "1",
+                "countryId": "1",
+                "displayWeight": "0"
+            }
+        ],
+        "total": 2
+    }
+}
