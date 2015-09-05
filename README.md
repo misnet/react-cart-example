@@ -33,3 +33,19 @@
 
 ```
 主要要理清楚Action，Store，Component的关系，记住三者之间是单向的数据流关系，Component需要更新就发起Action请求，由Action去调动Store，而Store的更新又可以通过Store与Component的绑定关系更新Component（利用Component的State属性）
+
+## 相关工具在本项目的应用
+
+
+* jsx文件编绎成js文件：借助react-tools：，命令行示例如下：
+```bash
+jsx -x jsx -w src/ dist/
+```
+* 项目中用到的打包工具是r.js，命令行示例如下：
+```bash
+cd tools
+r.js -o build.js
+```
+示例文件未使用打包后的js文件，系统会加载用到的所有js文件，为减少js请求，可以将这些js进行统一打包。需要可以借助r.js打包工具进行打包，tools/build.js的配置是将dist/page的文件打包并到app/page目录，有关r.js的使用请自行查询。
+
+打包完成后，要使用打包文件，请修改index.html的require.config部分，将'app':'../dist'改为'app':'../app'即可
