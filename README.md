@@ -22,3 +22,14 @@
 * --langs 语言包文件
 * src 源程序目录，里面都是jsx文件，通过react的jsx工具可以编译到dist目录，生成js文件
 * tools  requirejs的r.js工具使用的配置文件，可以将dist目录的文件进行打包，主要是针对dist/page下的文件进行打包，生成的目录放在app目录
+
+## Flux模式说明
+```
+╔═════════╗       ╔════════╗       ╔═════════════════╗
+║ Actions ║──────>║ Stores ║──────>║ View Components ║
+╚═════════╝       ╚════════╝       ╚═════════════════╝
+     ^                                      │
+     └──────────────────────────────────────┘
+
+```
+主要要理清楚Action，Store，Component的关系，记住三者之间是单向的数据流关系，Component需要更新就发起Action请求，由Action去调动Store，而Store的更新又可以通过Store与Component的绑定关系更新Component（利用Component的State属性）
