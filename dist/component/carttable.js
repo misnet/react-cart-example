@@ -260,6 +260,7 @@ define('app/component/carttable',[
 			var content = summary = '';
 			if(this.props.loaded===false){
 				layer.load(1);
+				content = React.createElement("p", {className: "alert alert-warning"}, React.createElement("i", {className: "fa fa-info"}), " ", langs.trans('加载中...'))
 			}else{
 				layer.closeAll();
 				var content = React.createElement(EmptyShoppingCart, null);

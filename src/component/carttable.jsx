@@ -260,6 +260,7 @@ define('app/component/carttable',[
 			var content = summary = '';
 			if(this.props.loaded===false){
 				layer.load(1);
+				content = <p className="alert alert-warning"><i className="fa fa-info"></i> {langs.trans('加载中...')}</p>
 			}else{
 				layer.closeAll();
 				var content = <EmptyShoppingCart />;
